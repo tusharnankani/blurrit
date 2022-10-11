@@ -4,9 +4,8 @@
     <br />
 </p>
 <p align="right">
-  <sub>Built with <a src="figma.com">Figma</a>.</sub>
+  <sub>Built with <a src="https://figma.com">Figma</a>.</sub>
 </p>
-<br />
 <br />
 
 <p align="center">
@@ -21,7 +20,6 @@
   <a href="#local-setup">Local Setup</a>
   <br />
 </p>
-<br />
 <br />
 
 ### Table of Content
@@ -38,15 +36,18 @@
 - Blurs the list of chats (Left side) of the WhatsApp Web view.
 - Blurs the WhatsApp name of the message.
 
-<br />
+##### Extension in Action
+
 <table>
     <tr>
         <td>
-            <img src='assets/demo_light.png' alt='A snapshot of blurrit extension in action with WhatsApp Web in light mode'>
+            <img src='assets/demo_light.png' width="80%" alt='A snapshot of blurrit extension in action with WhatsApp Web in light mode'>
         </td>
-        <td>
-            <img src='assets/demo_dark.png' alt='A snapshot of blurrit extension in action with WhatsApp Web in light mode'>
-        </td>
+    </tr>
+    <tr>
+      <td>
+            <img src='assets/demo_dark.png' width="80%" alt='A snapshot of blurrit extension in action with WhatsApp Web in light mode'>
+      </td>
     </tr>
 </table>
 
@@ -62,8 +63,6 @@ Moreover, the fact that when I went to look for a solution, found [the perfect o
 
 <sub>Also, wanted to build <strike>an extension</strike> desparately.</sub>
 
-<br />
-
 ### Local Setup
 
 - Clone the repository: `git clone https://github.com/tusharnankani/blurrit.git` or download the zip file and unzip it.
@@ -75,4 +74,4 @@ Moreover, the fact that when I went to look for a solution, found [the perfect o
 - Visit [web.whatsapp.com](httlps://web.whatsapp.com); because **blurrit** is ready to use.
 
 <br />
-<sub>Built with <strike>sweat, blood and love</strike> JavaScript, by [Tushar Nankani](twitter.com/tusharnankanii)</sub>.
+<sub>Built with <strike>sweat, blood and love</strike> JavaScript, for you, by Tushar Nankani</sub>.
