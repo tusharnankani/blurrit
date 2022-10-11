@@ -1,4 +1,3 @@
-
 <br />
 <p align="center">
   <img src="./assets/cover.png" width="80%" />
@@ -55,7 +54,7 @@
 
 ### Motivation
 
-- Ever felt your privacy invaded when you are logged into WhatsApp Web when you are sharing your screen in a meet or on a projector? 
+- Ever felt your privacy invaded when you are logged into WhatsApp Web when you are sharing your screen in a meet or on a projector?
 - Or are there times when someone is sitting beside you and sees your WhatsApp chats or who you have been texting?
 - Or are there times when you want to share a screenshot with the names hidden?
 
