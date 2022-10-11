@@ -29,8 +29,6 @@
 - [Motivation](#motivation)
 - [Local Setup](#local-setup)
 
-<br />
-
 ### Features
 
 - Blurs the list of chats (Left side) of the WhatsApp Web view.
@@ -41,12 +39,12 @@
 <table>
     <tr>
         <td>
-            <img src='assets/demo_light.png' width="80%" alt='A snapshot of blurrit extension in action with WhatsApp Web in light mode'>
+            <img src='assets/demo_light.png' width="100%" alt='A snapshot of blurrit extension in action with WhatsApp Web in light mode'>
         </td>
     </tr>
     <tr>
       <td>
-            <img src='assets/demo_dark.png' width="80%" alt='A snapshot of blurrit extension in action with WhatsApp Web in light mode'>
+            <img src='assets/demo_dark.png' width="100%" alt='A snapshot of blurrit extension in action with WhatsApp Web in light mode'>
       </td>
     </tr>
 </table>
@@ -74,4 +72,4 @@ Moreover, the fact that when I went to look for a solution, found [the perfect o
 - Visit [web.whatsapp.com](httlps://web.whatsapp.com); because **blurrit** is ready to use.
 
 <br />
-<sub>Built with <strike>sweat, blood and love</strike> JavaScript, for you, by Tushar Nankani</sub>.
+<sub>Built with <strike>sweat, blood and love</strike> JavaScript, for you, by Tushar Nankani.</sub>
