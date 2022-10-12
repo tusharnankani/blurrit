@@ -65,11 +65,11 @@ Moreover, the fact that when I went to look for a solution, found [the perfect o
 
 - Clone the repository: `git clone https://github.com/tusharnankani/blurrit.git` or download the zip file and unzip it.
 - Extensions can be [loaded in unpacked mode](https://developer.chrome.com/extensions/getstarted#unpacked) by following the following steps.
-- Visit `[chrome://extensions](chrome://extensions)` or `[edge://extensions](edge://extensions)` (via menu -> Tools -> Extensions).
-- Enable Developer mode by ticking the checkbox.
+- Visit `chrome://extensions` or `edge://extensions` (via menu -> Tools -> Extensions).
+- Enable `Developer mode` by ticking the checkbox.
 - Click on the "Load unpacked extension." button.
 - Select the locally cloned repository or the unzipped folder to unpack the extension.
-- Visit [web.whatsapp.com](httlps://web.whatsapp.com); because **blurrit** is ready to use.
+- Visit [web.whatsapp.com](https://web.whatsapp.com); because **blurrit** is ready to use.
 
 <br />
-<sub>Built with <strike>sweat, blood and love</strike> JavaScript, for you, by Tushar Nankani.</sub>
+<sub>Built with <strike>sweat, blood and love</strike> JavaScript, by Tushar Nankani.</sub>
