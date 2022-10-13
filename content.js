@@ -1,4 +1,3 @@
-
 // let items = document.getElementsByClassName("message-in");
 // let whatsappMessageTexts = document.querySelectorAll("div.copyable-text");
 
@@ -19,16 +18,16 @@
 blurIt = () => {
 
     let chatList = document.getElementById("side");
-    chatList ? chatList.style.filter = "blur(10px)" : " ";
+    chatList ? chatList.classList.add("blurrit-class", "blur-10") : "";
     
     let header = document.getElementsByTagName('header')[1];
-    header ? header.style.filter = "blur(4px)" : " ";
+    header ? header.classList.add("blurrit-class", "blur-4") : "";
 
     for(i = 0; i < 256; ++i) {
         let potentialListOfUserNameColors = document.getElementsByClassName(`color-${i+1}`);
         let potentialListOfUserNameBgColors = document.getElementsByClassName(`bg-color-${i+1}`);
-        for (item of potentialListOfUserNameColors) {item.style.filter = "blur(4px)";}
-        for (item of potentialListOfUserNameBgColors) {item.style.filter = "blur(4px)";}
+        for (item of potentialListOfUserNameColors) {item.classList.add("blurrit-class", "blur-4");}
+        for (item of potentialListOfUserNameBgColors) {item.classList.add("blurrit-class", "blur-4");}
     }
     
     setTimeout(blurIt, 1000);
