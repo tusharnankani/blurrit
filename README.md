@@ -63,12 +63,21 @@ Moreover, the fact that when I went to look for a solution, found [the perfect o
 
 ### Local Setup
 
-- Clone the repository: `git clone https://github.com/tusharnankani/blurrit.git` or download the zip file and unzip it.
+- Clone the [repository](https://github.com/tusharnankani/blurrit): `git clone https://github.com/tusharnankani/blurrit.git` or [download the zip file](https://github.com/tusharnankani/blurrit/archive/refs/heads/main.zip).
+  - Unzip it by right clicking on `blurrit-main` (in your downloads)
+  - And then clicking on `Extract All`.
 - Extensions can be [loaded in unpacked mode](https://developer.chrome.com/extensions/getstarted#unpacked) by following the following steps.
 - Visit `chrome://extensions` or `edge://extensions` (via menu -> Tools -> Extensions).
 - Enable `Developer mode` by ticking the checkbox.
+
+![image](https://user-images.githubusercontent.com/61280281/195565460-fc5858ff-0deb-4e8e-b748-bf98f41065df.png)
+![image](https://user-images.githubusercontent.com/61280281/195565486-beda6a03-4760-4262-804b-e569dc51d524.png)
+
 - Click on the "Load unpacked extension." button.
-- Select the locally cloned repository or the unzipped folder to unpack the extension.
+
+![image](https://user-images.githubusercontent.com/61280281/195565525-d68435a4-4eb4-4082-a4e7-44ed0bf830e7.png)
+
+- Select the locally cloned repository or the unzipped folder (`blurrit-main` in this case) which has `manifest.json` in the root to unpack the extension.
 - Visit [web.whatsapp.com](https://web.whatsapp.com); because **blurrit** is ready to use.
 
 <br />
