@@ -26,13 +26,16 @@
 
 - [Table of Content](#table-of-content)
 - [Features](#features)
+    - [Extension in Action](#extension-in-action)
 - [Motivation](#motivation)
 - [Local Setup](#local-setup)
 
 ### Features
 
 - Blurs the list of chats (Left side) of the WhatsApp Web view.
-- Blurs the WhatsApp name of the message.
+- Blurs the WhatsApp Chat Name of the message.
+- Blurs the WhatsApp Author Name of the message.
+- Momentarily un-blurs on hovering the blurred regions.  
 
 ##### Extension in Action
 
@@ -51,6 +54,14 @@
 
 <br />
 
+**Major UX Update**
+
+- All of the [potential enhancements](https://github.com/tusharnankani/blurrit/issues/4) expect a toggle button/checkbox for customizations.
+- Came up with a better fix — Removing the click overall (UX 101)
+- Now, if you'll just hover on the blurred region; you will be able to momentarily see the hovered plus blurred region.
+
+![version 0.2 of the extension](assets/0.2_fin.mp4)
+
 ### Motivation
 
 - Ever felt your privacy invaded when you are logged into WhatsApp Web when you are sharing your screen in a meet or on a projector?
@@ -65,7 +76,7 @@ Moreover, the fact that when I went to look for a solution, found [the perfect o
 
 ### Local Setup
 
-- Clone the [repository](https://github.com/tusharnankani/blurrit): `git clone https://github.com/tusharnankani/blurrit.git` or [download the zip file](https://github.com/tusharnankani/blurrit/archive/refs/heads/main.zip).
+- Clone the [repository](https://github.com/tusharnankani/blurrit) or [download the zip file](https://github.com/tusharnankani/blurrit/archive/refs/heads/main.zip).
 
 <details>
  <summary>Downloading Extension</summary>
@@ -88,7 +99,7 @@ Moreover, the fact that when I went to look for a solution, found [the perfect o
 
 - Extensions can be [loaded in unpacked mode](https://developer.chrome.com/extensions/getstarted#unpacked) by following the following steps.
 - Visit `chrome://extensions` or `edge://extensions` (via menu -> Tools -> Extensions).
-- Enable `Developer mode` by ticking the checkbox.
+- `Enable Developer mode` by ticking the checkbox.
 
 <details>
  <summary>Enabling Developer Mode</summary>
