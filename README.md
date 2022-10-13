@@ -60,7 +60,11 @@
 - Came up with a better fix — Removing the click overall (UX 101)
 - Now, if you'll just hover on the blurred region; you will be able to momentarily see the hovered plus blurred region.
 
-![version 0.2 of the extension](assets/0.2_fin.mp4)
+<br />
+<p align="center">
+  <img src="assets/0.2_fin.gif">
+</p>
+<br />
 
 ### Motivation
 
