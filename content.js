@@ -1,27 +1,13 @@
-// let items = document.getElementsByClassName("message-in");
-// let whatsappMessageTexts = document.querySelectorAll("div.copyable-text");
+let chatList = document.getElementById("side");
+chatList ? chatList.classList.add("blurrit-class", "blur-10") : "";
 
-/*
-    Multiple problems
-    0. Blurs <forwarded> instead of name.
-    1. Doesn't blur names for above a <sent media>; because of `.copyable-text`.
-    2. Doesn't blur names in tagged messages.
-*/ 
+let header = document.getElementsByTagName('header')[1];
+header ? header.classList.add("blurrit-class", "blur-4") : "";
 
-// for (let text of whatsappMessageTexts) {
-//     let textSibling = text.parentElement.firstChild;
-//     if(textSibling != text) {
-//         textSibling.style.filter = "blur(4px)";
-//     }
-// }
+var id = 0;
 
 blurIt = () => {
-
-    let chatList = document.getElementById("side");
-    chatList ? chatList.classList.add("blurrit-class", "blur-10") : "";
-    
-    let header = document.getElementsByTagName('header')[1];
-    header ? header.classList.add("blurrit-class", "blur-4") : "";
+    clearTimeout(id);
 
     for(i = 0; i < 256; ++i) {
         let potentialListOfUserNameColors = document.getElementsByClassName(`color-${i+1}`);
@@ -30,7 +16,7 @@ blurIt = () => {
         for (item of potentialListOfUserNameBgColors) {item.classList.add("blurrit-class", "blur-4");}
     }
     
-    setTimeout(blurIt, 1000);
+    id = setTimeout(blurIt, 1000);
 }
 
-window.addEventListener('load', blurIt);
+blurIt();

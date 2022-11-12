@@ -3,14 +3,11 @@
   "description": "A web extension to make your WhatsApp safe and to make you feel safer.",
   "version": "0.2",
   "manifest_version": 3,
-    "action": {
+  "action": {
     "default_icon": "assets/logo.png"
   },
-    "content_scripts": [
-        {
-          "matches": ["https://web.whatsapp.com/*"],
-          "js": ["content.js"],
-          "css": ["style.css"]
-        }
-    ]
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  }
 }
