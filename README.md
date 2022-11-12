@@ -35,9 +35,22 @@
 - Blurs the list of chats (Left side) of the WhatsApp Web view.
 - Blurs the WhatsApp Chat Name of the message.
 - Blurs the WhatsApp Author Name of the message.
-- Momentarily un-blurs on hovering the blurred regions.  
+- Momentarily un-blurs on hovering the blurred regions.
+- Toggles blur on clicking the extension.
 
-##### Extension in Action
+#### Extension in Action
+
+**Simple OnClick Toggle**: [Release v0.3](https://github.com/tusharnankani/blurrit/releases/tag/v0.3)
+
+- Click on the extension to toggle the blur.
+
+**Major UX Update**: [Release v0.2](https://github.com/tusharnankani/blurrit/releases/tag/v0.2)
+
+- All of the [potential enhancements](https://github.com/tusharnankani/blurrit/issues/4) expect a toggle button/checkbox for customizations.
+- Came up with a better fix — Removing the click overall (UX 101)
+- Now, if you'll just hover on the blurred region; you will be able to momentarily see the hovered plus blurred region.
+
+**Blurs onLoad**: [Release v0.1](https://github.com/tusharnankani/blurrit/releases/tag/v0.1)
 
 <table>
     <tr>
@@ -54,11 +67,7 @@
 
 <br />
 
-**Major UX Update**
-
-- All of the [potential enhancements](https://github.com/tusharnankani/blurrit/issues/4) expect a toggle button/checkbox for customizations.
-- Came up with a better fix — Removing the click overall (UX 101)
-- Now, if you'll just hover on the blurred region; you will be able to momentarily see the hovered plus blurred region.
+****
 
 <br />
 <p align="center">
