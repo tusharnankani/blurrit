@@ -1,13 +1,14 @@
-let chatList = document.getElementById("side");
-chatList ? chatList.classList.add("blurrit-class", "blur-10") : "";
-
-let header = document.getElementsByTagName('header')[1];
-header ? header.classList.add("blurrit-class", "blur-4") : "";
 
 var id = 0;
 
 blurIt = () => {
     clearTimeout(id);
+    
+    let chatList = document.getElementById("side");
+    chatList ? chatList.classList.add("blurrit-class", "blur-10") : "";
+    
+    let header = document.getElementsByTagName('header')[1];
+    header ? header.classList.add("blurrit-class", "blur-4") : "";
 
     for(i = 0; i < 256; ++i) {
         let potentialListOfUserNameColors = document.getElementsByClassName(`color-${i+1}`);
