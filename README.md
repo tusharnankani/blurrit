@@ -26,7 +26,7 @@
 
 - [Table of Content](#table-of-content)
 - [Features](#features)
-  - [Extension in Action](#extension-in-action)
+- [Extension in Action](#extension-in-action)
 - [Motivation](#motivation)
 - [Local Setup](#local-setup)
 
@@ -42,7 +42,7 @@ Read the [Privacy Statement](/privacy).
 - Momentarily un-blurs on hovering the blurred regions.
 - Toggles blur on clicking the extension.
 
-#### Extension in Action
+### Extension in Action
 
 **Blurs onLoad**
 
