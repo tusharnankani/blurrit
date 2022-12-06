@@ -26,9 +26,13 @@
 
 - [Table of Content](#table-of-content)
 - [Features](#features)
-    - [Extension in Action](#extension-in-action)
+  - [Extension in Action](#extension-in-action)
 - [Motivation](#motivation)
 - [Local Setup](#local-setup)
+
+Read the [Privacy Statement](/privacy).
+
+<br/>
 
 ### Features
 
@@ -40,17 +44,7 @@
 
 #### Extension in Action
 
-**Simple OnClick Toggle**: [Release v0.3](https://github.com/tusharnankani/blurrit/releases/tag/v0.3)
-
-- Click on the extension to toggle the blur.
-
-**Major UX Update**: [Release v0.2](https://github.com/tusharnankani/blurrit/releases/tag/v0.2)
-
-- All of the [potential enhancements](https://github.com/tusharnankani/blurrit/issues/4) expect a toggle button/checkbox for customizations.
-- Came up with a better fix — Removing the click overall (UX 101)
-- Now, if you'll just hover on the blurred region; you will be able to momentarily see the hovered plus blurred region.
-
-**Blurs onLoad**: [Release v0.1](https://github.com/tusharnankani/blurrit/releases/tag/v0.1)
+**Blurs onLoad**
 
 <table>
     <tr>
@@ -67,12 +61,22 @@
 
 <br />
 
-****
+**Major UX Update**:
 
-<br />
-<p align="center">
-  <img src="assets/0.2_fin.gif">
-</p>
+- All of the [potential enhancements](https://github.com/tusharnankani/blurrit/issues/4) expect a toggle button/checkbox for customizations.
+- Came up with a better fix — Removing the click overall (UX 101)
+- Now, if you'll just hover on the blurred region; you will be able to momentarily see the hovered plus blurred region.
+
+**Simple OnClick Toggle**:
+
+- Click on the extension to toggle the blur.
+
+**Keyboard Shortcut (Hot-Key) Toggle**
+
+Use the shortcut to toggle the blur.
+- Windows: `Ctrl` + `Shift` + `Z`
+- Mac: `Command` + `Shift` + `Z`
+
 <br />
 
 ### Motivation
@@ -89,7 +93,7 @@ Moreover, the fact that when I went to look for a solution, found [the perfect o
 
 ### Local Setup
 
-- Clone the [repository](https://github.com/tusharnankani/blurrit) or [download the zip file](https://github.com/tusharnankani/blurrit/archive/refs/heads/main.zip).
+- Clone the [repository](https://github.com/tusharnankani/blurrit) or [download the zipped file](https://github.com/tusharnankani/blurrit/archive/refs/heads/main.zip).
 
 <details>
  <summary>Downloading Extension</summary>
@@ -142,4 +146,4 @@ Moreover, the fact that when I went to look for a solution, found [the perfect o
 - Visit [web.whatsapp.com](https://web.whatsapp.com); because **blurrit** is ready to use.
 
 <br />
-<sub>Built with <strike>sweat, blood and love</strike> JavaScript, by Tushar Nankani.</sub>
+<sub>Built with <strike>sweat, blood and love</strike> JavaScript, by <a href="https://tusharnankani.github.io">Tushar Nankani.</sub>
