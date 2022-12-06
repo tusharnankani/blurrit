@@ -1,13 +1,27 @@
 {
   "name": "blurrit",
   "description": "A web extension to make your WhatsApp safe and to make you feel safer.",
-  "version": "0.3",
+  "version": "1.0",
   "manifest_version": 3,
   "action": {
-    "default_icon": "assets/logo.png"
+    "default_icon": "img/icon32.png"
+  },
+  "icons": {
+    "16": "img/icon16.png",
+    "32": "img/icon32.png",
+    "48": "img/icon48.png",
+    "128": "img/icon128.png"
   },
   "permissions": ["activeTab", "scripting"],
   "background": {
     "service_worker": "background.js"
-  }
+  },
+  "commands": {
+		"_execute_action": {
+			"suggested_key": {
+				"windows": "Ctrl+Shift+Z",
+				"mac": "Command+Shift+Z"
+			}
+		}
+	}
 }
