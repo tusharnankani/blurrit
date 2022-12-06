@@ -30,7 +30,7 @@
 - [Motivation](#motivation)
 - [Local Setup](#local-setup)
 
-Read the [Privacy Statement](/privacy).
+Read the [Privacy Statement](privacy).
 
 <br/>
 
