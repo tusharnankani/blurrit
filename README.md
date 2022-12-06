@@ -148,4 +148,4 @@ Moreover, the fact that when I went to look for a solution, found [the perfect o
 - Visit [web.whatsapp.com](https://web.whatsapp.com); because **blurrit** is ready to use.
 
 <br />
-<sub>Built with <strike>sweat, blood and love</strike> JavaScript, by <a href="https://tusharnankani.github.io">Tushar Nankani.</sub>
+<sub>Built with <strike>sweat, blood and love</strike> JavaScript, by <a href="https://tusharnankani.github.io">Tushar Nankani.</a></sub>
