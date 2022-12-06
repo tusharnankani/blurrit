@@ -10,4 +10,4 @@ If you have any questions or concerns about our privacy practices, please do not
 
 Last updated: 12th December, 2022
 
-[Back](/README)
+[Back](/blurrit)

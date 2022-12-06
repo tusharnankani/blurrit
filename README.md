@@ -77,6 +77,8 @@ Use the shortcut to toggle the blur.
 - Windows: `Ctrl` + `Shift` + `Z`
 - Mac: `Command` + `Shift` + `Z`
 
+<sup>lowkey proud of the alignment and accessibility of these keys.</sup>
+
 <br />
 
 ### Motivation
