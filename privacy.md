@@ -1,4 +1,4 @@
-## Privacy Statement
+# Privacy Statement
 
 Your privacy is important to us. This privacy statement explains the fact that [blurrit](https://tusharnankani.github.io/blurrit) does not process or tracks any personal data.
 
