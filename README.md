@@ -9,8 +9,13 @@
 <br />
 
 <p align="center">
+ 
   <br />
-  <a href="#table-of-content"><b>Explore the docs »</b></a>
+  <a href="https://chrome.google.com/webstore/detail/blurrit/idknnkkejgomjlgbdpoblkfhhicekdjl"><b>Download from the Web Store</b></a>
+  <br />
+  <br />
+  <br />
+  <a href=""><b>Explore the docs »</b></a>
   <br />
   <br />
   <a href="#features">Features</a>
@@ -95,6 +100,14 @@ Moreover, the fact that when I went to look for a solution, found [the perfect o
 
 ### Local Setup
 
+Download on Edge, Chrome or Brave from the [Web Store](https://chrome.google.com/webstore/detail/blurrit/idknnkkejgomjlgbdpoblkfhhicekdjl).
+
+<img src="https://user-images.githubusercontent.com/61280281/206140070-217eb618-d29d-4c15-8f85-da41daea00cf.png" width="60%">
+
+<br />
+<details>
+<summary>Developer Setup</summary>
+
 - Clone the [repository](https://github.com/tusharnankani/blurrit) or [download the zipped file](https://github.com/tusharnankani/blurrit/archive/refs/heads/main.zip).
 
 <details>
@@ -144,8 +157,10 @@ Moreover, the fact that when I went to look for a solution, found [the perfect o
 </details>
 
 <br />
-  
 - Visit [web.whatsapp.com](https://web.whatsapp.com); because **blurrit** is ready to use.
+</details>
+
+
 
 <br />
 <sub>Built with <strike>sweat, blood and love</strike> JavaScript, by <a href="https://tusharnankani.github.io">Tushar Nankani.</a></sub>
