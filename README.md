@@ -112,7 +112,7 @@ Download on Edge, Chrome or Brave from the [Web Store](https://chrome.google.com
 
 <br />
 
-- For Developer Setup, please take a look at [CONTRIBUTING.md](CONTRIBUTING).
+- For Developer Setup, please take a look at [CONTRIBUTING.md](CONTRIBUTING.md).
 
 <br /><br />
 
