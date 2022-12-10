@@ -16,6 +16,9 @@
   "background": {
     "service_worker": "background.js"
   },
+  "host_permissions": [
+    "http://web.whatsapp.com/*"
+  ],	  
   "commands": {
 		"_execute_action": {
 			"suggested_key": {
