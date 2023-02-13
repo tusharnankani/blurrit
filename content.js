@@ -9,6 +9,9 @@ blurIt = () => {
     
     let header = document.getElementsByTagName('header')[1];
     header ? header.classList.add("blurrit-class", "blur-4") : "";
+    
+    let taggedNameList = document.getElementsByClassName("matched-mention");
+    for (item of taggedNameList) {item.classList.add("blurrit-class", "blur-4");}
 
     for(i = 0; i < 256; ++i) {
         let potentialListOfUserNameColors = document.getElementsByClassName(`color-${i+1}`);
